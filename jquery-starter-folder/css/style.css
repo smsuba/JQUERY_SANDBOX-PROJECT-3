@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 2%;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}

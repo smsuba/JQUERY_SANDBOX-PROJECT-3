@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+
+* {
+font-family: "Ubuntu", sans-serif;
+font-weight: 400;
+margin:0;
+padding:0;
+}
+
+body {
+overflow:hidden;
+font-family: Arial;
+background: #79C1D1;
+  
+/* background-image: radial-gradient(circle, #111, #444); */
+}
+
+/* floating tapioca */
+.circle {
+position: absolute;
+left: 150px;
+top: 0px;
+width: 50px;
+height: 50px;
+border-radius: 60%;
+opacity: 60%;
+}
+
+/* plastic interactive*/
+.clickme{
+position:absolute;
+width: 20%;
+left: 980px;
+top: 300px;
+rotate: -10deg;
+}
+
+.slogan{
+position:absolute;
+width: 80%;
+left: 320px;
+top: 20px;
+}
+
+
+/* cap interactive */
+.capfish{
+position:absolute;
+width: 40%;
+left: 150px;
+top: 300px;
+}
+
+.deadfish{
+position:absolute;
+width: 50%;
+left: 90px;
+top: 150px;
+}
+
+/* paper interactive */
+
+.crumpled{
+position:absolute;
+width: 30%;
+left: 1250px;
+top: -80px;
+}
+  
+.paper{
+position:absolute;
+width: 60%;
+left: 900px;
+top: -10px;
+rotate: 5deg;
+filter: brightness(90%);
+}
+
+
+.cup {
+position: absolute;
+top: -110px;
+left: 250px;
+width: 1000px;
+rotate: 10deg;
+filter: brightness(95%);
+opacity: 80%;
+}
+
+/* anchovy */
+.anchovy{
+    position: absolute;
+    width: 200px;
+    left: 880px;
+    top: 500px;
+   
+    }
+
+
+.turtle {
+position: absolute;
+left: 690px;
+top: 200px;
+max-width: 200px;
+max-height: auto;
+rotate: 40deg;
+opacity: 100%;
+    
+}
+
+/* smol turtle */
+.turtle2 {
+position: absolute;
+left: 660px;
+top: 520px;
+max-width: 120px;
+max-height: auto;
+rotate: 10deg;
+    
+}
+
+.plasticbottle{
+position: absolute;
+right: -450px;
+top: 200px;
+width: 750px;
+rotate: 10deg;
+filter: brightness(90%);
+rotate: -5deg;
+}
+
+.fork{
+position: absolute;
+right: 800px;
+top: 150px;
+width: 550px;
+rotate: 10deg;
+opacity: 90%; 
+filter: brightness(95%);
+rotate: deg;
+}
+
+/* coke bottle */
+.bottle{
+position: absolute;
+right: 850px;
+top: -370px;
+width: 750px;
+rotate: 10deg;
+rotate: 120deg;
+}
+
+/* bottom glass */
+.bottle-glass{
+position: absolute;
+right: 160px;
+top: 420px;
+width: 750px;
+rotate: 10deg;
+rotate: 90deg;
+}
+
+.spoon{
+position: absolute;
+right: 150px;
+top: -200px;
+width: 550px;
+rotate: 10deg;
+filter: brightness(95%);
+rotate: 60deg;
+}
+
+/* big right facing */
+.seahorse1{
+position: absolute;
+right: 190px;
+top: 120px;
+width: 200px;
+rotate: 10deg;
+filter: brightness(95%);
+rotate: -30deg;
+}
+
+/* small left facing in cup */
+.seahorse2{
+position: absolute;
+right: 600px;
+top: 360px;
+width: 150px;
+rotate: 10deg;
+filter: brightness(95%);
+rotate: -10deg;
+}
+
+/* medium left facing in bottle */
+.seahorse3{
+position: absolute;
+right: -115px;
+top: 400px;
+width: 200px;
+rotate: 10deg;
+filter: brightness(95%);
+rotate: 15deg;
+}
+
+/* right small */
+.orb1{
+position: absolute;
+right: 150px;
+top: 550px;
+width: 200px;
+rotate: 10deg;
+filter: brightness(95%);
+}
+
+/* top right big */
+.orb2{
+position: absolute;
+right: -100px;
+top: -100px;
+width: 300px;
+rotate: 10deg;
+filter: brightness(95%);
+}
+
+/* bottom */
+.orb3{
+position: absolute;
+right: 250px;
+top: 800px;
+width: 350px;
+rotate: 10deg;
+filter: brightness(95%);
+}
+
+/* top left */
+.orb4{
+position: absolute;
+right: 1100px;
+top: -50px;
+width: 200px;
+rotate: 10deg;
+filter: brightness(95%);
+}
+
+/* middle small */
+.orb5{
+position: absolute;
+right: 450px;
+top: 60px;
+width: 150px;
+rotate: 10deg;
+filter: brightness(95%);
+}
+
+/* left big */
+ 
+.orb6{
+position: absolute;
+right: 1200px;
+top: 250px;
+width: 250px;
+rotate: 10deg;
+filter: brightness(95%);
+}
+  
+
+.coralblue {
+position: absolute;
+left: 1200px;
+top: 350px;
+max-width: 700px;
+filter: brightness(90%);
+filter: saturate(90%);
+}
+
+.coralpurple {
+position: absolute;
+left: -200px;
+top: 400px;
+max-width: 700px;
+max-height: auto;
+filter: brightness(90%);
+filter: saturate(90%);
+}
+
+
+  
+/* turtle */
+#floating-img{
+transform: translateY(-10%);
+animation: floater 6s infinite;
+transition: ease 1s;
+}
+
+/* turtle */
+#floating-img2{
+transform: translateY(-10%);
+animation: floater 5s infinite;
+transition: ease 1s;
+}
+
+/* cup  */
+#floating-img3{
+transform: translateY(-10%);
+animation: floater 30s infinite;
+transition: ease .5s;
+}
+
+/* plastic bottle */
+#floating-img4{
+transform: translateY(-10%);
+animation: floater 35s infinite;
+transition: ease 1s;
+}
+
+/* fork */
+#floating-img5{
+transform: translateY(-10%);
+animation: floater 12s infinite;
+transition: ease 1s;
+}
+
+/* bottle */
+#floating-img6{
+transform: translateY(-10%);
+animation: floater 10s infinite;
+transition: ease 1s;
+}
+
+/* spoon */
+#floating-img7{
+transform: translateY(-10%);
+animation: floater 20s infinite;
+transition: ease 1s;
+}
+
+/* seahorse */
+#floating-img8{
+transform: translateY(-10%);
+animation: floater 10s infinite;
+transition: ease 1s;
+}
+
+#floating-img9{
+transform: translateY(-10%);
+animation: floater 5s infinite;
+transition: ease 1s;
+}
+
+#floating-img10{
+transform: translateY(-10%);
+animation: floater 40s infinite;
+transition: ease 1s;
+}
+
+#floating-img11{
+transform: translateY(-10%);
+animation: floater 20s infinite;
+transition: ease 1s;
+}
+
+/* interactive */
+#clickme-img{
+transform: translateY(-10%);
+animation: floater 10s infinite;
+transition: ease 1s;
+}
+
+#slogan-img{
+transform: translateY(-10%);
+animation: floater 40s infinite;
+transition: ease .5s;
+}
+
+#capfish-img{
+transform: translateY(-10%);
+animation: floater 16s infinite;
+transition: ease 1s;
+}
+
+#deadfish-img{
+transform: translateY(-10%);
+animation: floater 16s infinite;
+transition: ease .1s;
+}
+
+#crumpled-img{
+transform: translateY(-10%);
+animation: floater 16s infinite;
+transition: ease 1s;
+}
+
+#paper-img{
+transform: translateY(-10%);
+animation: floater 35s infinite;
+transition: ease .1s;
+}
+
+
+    
+    
+@keyframes floater {
+0%{transform: translateY(-10%);transition: ease .5s;}
+50%{transform: translateY(10%);transition: ease .5s;}
+}
+
+.fishfollow{
+width: 300px;
+}
+
+.player {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #83bff6;
+  }
+
+.audio{
+    position: relative;
+    opacity: 50%;
+    left: -130px;
+    top: 520px;
+}
+
+
+
+
+
+
+
